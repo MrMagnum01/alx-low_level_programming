@@ -16,7 +16,7 @@ Each file in the directory correlates to a task. To run any of these files, use 
 
 ## Author
 
-[Your Name]
+Mahmoud Filali
 
 ## Acknowledgments
 
