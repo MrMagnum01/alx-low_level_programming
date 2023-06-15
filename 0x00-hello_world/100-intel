@@ -1,28 +1,2 @@
 #!/bin/bash
-
-# Ensure the CFILE environment variable is set
-if [ -z "$CFILE" ]
-then
-  echo "Error: CFILE environment variable is not set."
-  exit 1
-fi
-
-# Ensure the C file exists
-if [ ! -f "$CFILE" ]
-then
-  echo "Error: File '$CFILE' not found."
-  exit 1
-fi
-
-# Generate the assembly code (Intel syntax)
-OUTPUTFILE=${CFILE%.*}.s
-gcc -S -masm=intel $CFILE -o $OUTPUTFILE
-
-# Check if the assembly code was successfully created
-if [ $? -eq 0 ]
-then
-  echo "Successfully created assembly code file '$OUTPUTFILE'."
-else
-  echo "Failed to create assembly code file."
-  exit 1
-fi
+gcc -S -masm=intel $CFILE -o ${CFILE%.*}.s
