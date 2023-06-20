@@ -1,24 +1,15 @@
-#include <stdio.h>
+#include "main.h"
 
-void checkInteger(int num);
-
+/**
+ * main - tests function that prints if integer is positive, negative, or zero
+ * Return: 0
+ */
 int main(void)
 {
-    int number = 0;
-    
-    checkInteger(number);
-    
-    return 0;
-}
+        int i;
 
-void checkInteger(int num)
-{
-    if (num >= 0)
-    {
-        printf("%d is a positive number.\n", num);
-    }
-    else
-    {
-        printf("%d is a negative number.\n", num);
-    }
+        i = 0;
+        positive_or_negative(i);
+
+        return (0);
 }
