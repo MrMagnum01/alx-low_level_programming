@@ -7,6 +7,7 @@ This is a repository containing programs written for the ALX Low Level Programmi
 Directories in this repository include:
 
 - 0x00-hello_world: Introduction to the C programming language.
+- 0x01-variables_if_else_while
 
 Each directory contains various files related to the topic, such as C programs, scripts, and README files that explain the contents.
 
