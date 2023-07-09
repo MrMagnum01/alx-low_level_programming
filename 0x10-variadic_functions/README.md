@@ -1,4 +1,4 @@
-# Variaidc function project README file
+## 0x10-variadic_functions
 
 Task 0: A function that returns the sum of all its parameters.
 
