@@ -1,5 +1,6 @@
 Repository: **alx-low_level_programming**
-Owner: Mahmoud Filali
+
+Owner: `Mahmoud Filali`
 
 Description:
 This repository contains a collection of programs that demonstrate the usage of macros in C programming.
